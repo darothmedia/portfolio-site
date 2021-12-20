@@ -1,5 +1,5 @@
 import { Route, Routes, Router } from "react-router-dom"
-import Splash from './splash'
+import Splash from './main/splash'
 
 const App = () => (
   <>
