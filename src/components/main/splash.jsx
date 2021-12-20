@@ -4,7 +4,8 @@ import Showcase from "../showcase/showcase"
 const Splash = props => (
   <div className='wrapper' id='splashwrap'>
     <section className='wrapper' id='titlewrap'>
-      <h1>Rothschild</h1>
+      <div id='spacer'></div>
+      <h1>rothschild</h1>
       <h2>media</h2>
     </section>
     <Showcase />

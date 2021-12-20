@@ -1,3 +1,33 @@
-img {
-  width: 200px;
+.wrapper {
+  width: 100vw;
+  min-height: 200px;
+}
+
+#titlewrap {
+  text-align: right;
+  line-height: 0.7;
+  background-image: url('https://live.staticflickr.com/65535/51760065839_becee18bdc_h.jpg');
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#spacer {
+  height: 40%;
+}
+
+#titlewrap h1 {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  color: #FCF1C4;
+}
+
+#titlewrap h2 {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  color: #FCF1C4;
 }

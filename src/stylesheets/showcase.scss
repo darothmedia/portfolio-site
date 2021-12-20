@@ -1,0 +1,23 @@
+$moduleheight: 300px;
+$modulewidth: 80vw;
+
+.module {
+  width: $modulewidth;
+  height: $moduleheight;
+  display: block;
+  margin: 0px 20px 30px 20px;
+  padding: 20px;
+}
+
+#modwrapper img {
+  position: absolute;
+  width: $modulewidth + 5;
+  height: $moduleheight;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0px 20px 30px 20px;
+}
+
+#module-overlay {
+  background-color: rgba(0,0,0,0.7);
+}

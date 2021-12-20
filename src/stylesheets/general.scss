@@ -1,0 +1,22 @@
+$titlefont: 'Kanit';
+$subtitlefont: 'La Belle Aurore';
+
+html {
+  background-color: black;
+  color: #FCF1C4;
+}
+
+h1 {
+  font-family: $titlefont;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: $subtitlefont;
+  font-size: 60px;
+}
+
+a {
+  color: #FCF1C4;
+  text-decoration: none;
+}
