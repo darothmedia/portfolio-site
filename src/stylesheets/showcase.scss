@@ -1,23 +1,45 @@
-$moduleheight: 300px;
-$modulewidth: 80vw;
+$moduleheight: 200px;
+$modulewidth: 90vw;
+$imagewidth: 40vw;
+$imageheight: 240px;
+
+#showcase h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: $subtitlefont;
+}
 
 .module {
   width: $modulewidth;
   height: $moduleheight;
   display: block;
+  border-radius: 10px;
+  min-width: 600px;
+}
+
+.module h4 {
+  font-size: 30px;
+  font-family: $titlefont;
+}
+
+#modwrapper {
+  width: $modulewidth;
+  overflow: hidden;
+  min-width: 600px;
+  border-radius: 10px;
   margin: 0px 20px 30px 20px;
-  padding: 20px;
+  padding-right: 20px;
+  background-color: rgb(26, 26, 26);
 }
 
 #modwrapper img {
-  position: absolute;
-  width: $modulewidth + 5;
-  height: $moduleheight;
+  float: left;
+  width: $imagewidth;
+  min-width: 300px;
+  height: $imageheight;
   object-fit: cover;
-  z-index: -1;
-  margin: 0px 20px 30px 20px;
+  margin-right: 20px;
 }
 
-#module-overlay {
-  background-color: rgba(0,0,0,0.7);
-}
+
+

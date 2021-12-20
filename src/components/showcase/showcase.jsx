@@ -2,11 +2,11 @@ import modules from "./modules";
 
 const showcaseUtil = modules => (
   modules.map((module, i) => (
-    <a href={module.url} target='_blank' key={i} className="wrapper" id='modwrapper'>
-      <div className="overlay" id='module-overlay'>
+    <a href={module.url} target='_blank' key={i}>
+      <div className="wrapper" id='modwrapper'>
         <img src={module.img} alt={module.title} />
         <div className="module" id={i} >
-          <h3>{module.title}</h3>
+          <h4>{module.title}</h4>
           <p>{module.description}</p>
         </div>
       </div>
