@@ -9,3 +9,5 @@ const showcaseUtil = modules => {
     </a>
   ))
 }
+
+export default showcaseUtil
