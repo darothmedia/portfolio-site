@@ -1,14 +1,17 @@
-import { Route, Routes, Router } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Splash from './main/splash'
+import Header from "./main/header"
+import ContactForm from "./contact/contact_container"
 
 const App = () => (
   <>
     <header>
-      <p>Hello</p>
+      <Header />
     </header>
     
     <Routes>
       <Route path='/' element={<Splash />}/>
+      <Route path='/contact' element={<ContactForm />} />
     </Routes>
 
     <footer>  

@@ -7,3 +7,5 @@ const Header = props => (
     <Link to='/contact'>Contact</Link>
   </div>
 )
+
+export default Header
