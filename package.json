@@ -2,7 +2,7 @@
   "name": "rothschild-media",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://darothmedia.github.io/rothschild-media",
+  "homepage": "http://rothschildmedia.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
