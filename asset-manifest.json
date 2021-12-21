@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rothschild-media/static/css/main.26832e61.css",
-    "main.js": "/rothschild-media/static/js/main.d6003d0e.js",
-    "static/js/787.45cf7014.chunk.js": "/rothschild-media/static/js/787.45cf7014.chunk.js",
-    "index.html": "/rothschild-media/index.html",
-    "main.26832e61.css.map": "/rothschild-media/static/css/main.26832e61.css.map",
-    "main.d6003d0e.js.map": "/rothschild-media/static/js/main.d6003d0e.js.map",
-    "787.45cf7014.chunk.js.map": "/rothschild-media/static/js/787.45cf7014.chunk.js.map"
+    "main.css": "/static/css/main.26832e61.css",
+    "main.js": "/static/js/main.a6cc44ec.js",
+    "static/js/787.45cf7014.chunk.js": "/static/js/787.45cf7014.chunk.js",
+    "index.html": "/index.html",
+    "main.26832e61.css.map": "/static/css/main.26832e61.css.map",
+    "main.a6cc44ec.js.map": "/static/js/main.a6cc44ec.js.map",
+    "787.45cf7014.chunk.js.map": "/static/js/787.45cf7014.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26832e61.css",
-    "static/js/main.d6003d0e.js"
+    "static/js/main.a6cc44ec.js"
   ]
 }
