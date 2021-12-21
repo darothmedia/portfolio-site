@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rothschild-media/static/css/main.e6c13ad2.css",
+    "main.css": "/rothschild-media/static/css/main.26832e61.css",
     "main.js": "/rothschild-media/static/js/main.d6003d0e.js",
     "static/js/787.45cf7014.chunk.js": "/rothschild-media/static/js/787.45cf7014.chunk.js",
     "index.html": "/rothschild-media/index.html",
-    "main.e6c13ad2.css.map": "/rothschild-media/static/css/main.e6c13ad2.css.map",
+    "main.26832e61.css.map": "/rothschild-media/static/css/main.26832e61.css.map",
     "main.d6003d0e.js.map": "/rothschild-media/static/js/main.d6003d0e.js.map",
     "787.45cf7014.chunk.js.map": "/rothschild-media/static/js/787.45cf7014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
+    "static/css/main.26832e61.css",
     "static/js/main.d6003d0e.js"
   ]
 }
