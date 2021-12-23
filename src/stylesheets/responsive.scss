@@ -1,6 +1,6 @@
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .module {
     height: 250px;
     width: 85vw;
@@ -16,5 +16,21 @@
     width: 95vw;
     margin-right: 0px;
     float: none;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  #titlewrap h1 {
+    width: 300px;
+  }
+
+  #titlewrap h2 {
+    width: 300px;
   }
 }
