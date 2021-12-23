@@ -13,7 +13,7 @@ const modules = [
   },
   {
     title: 'Plant Palace',
-    img: 'https://live.staticflickr.com/65535/51760197555_be3b996075_h.jpg',
+    img: 'https://live.staticflickr.com/65535/51770535478_1d3ce3c852_h.jpg',
     url: 'https://hikers-guide.herokuapp.com',
     description: 'Plant Palace is a maze game where youll need to navigate an apartment cluttered with plants to get...well, anywhere!'
   }
