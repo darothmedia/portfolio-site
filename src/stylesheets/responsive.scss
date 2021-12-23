@@ -1,8 +1,8 @@
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .module {
-    height: 250px;
+    height: 200px;
     width: 85vw;
     margin-left: 20px;
   }
@@ -32,5 +32,13 @@
 
   #titlewrap h2 {
     width: 300px;
+  }
+
+  form p {
+    width: 320px;
+  }
+
+  #formwrap {
+    margin-top: 72px;
   }
 }

@@ -21,8 +21,8 @@ class ContactForm extends React.Component {
             <label>Message</label>
             <textarea name='entry.1738447102' />
           </div>
-          
           <button>Submit</button>
+          <p>Note: this message will be submitted via Google Forms</p>
         </form>
       </div>
     

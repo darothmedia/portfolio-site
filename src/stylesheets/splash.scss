@@ -5,7 +5,7 @@
 
 #titlewrap {
   text-align: right;
-  line-height: 0.7;
+  line-height: 0.6;
   background-image: url('https://live.staticflickr.com/65535/51760065839_becee18bdc_h.jpg');
   height: 600px;
   -webkit-background-size: cover;
@@ -28,6 +28,7 @@
 
 #titlewrap h2 {
   width: 400px;
+  padding-right: 10px;
   display: block;
   margin: 0 auto;
   color: #FCF1C4;
