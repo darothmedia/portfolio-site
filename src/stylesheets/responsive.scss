@@ -22,20 +22,13 @@
     font-size: 55px;
   }
 
-  h2 {
-    font-size: 35px;
-  }
-
   #titlewrap h2 {
     width: 482px;
+    font-size: 35px;
   }
 
   form p {
     width: 320px;
-  }
-
-  #formwrap {
-    margin-top: 72px;
   }
 
   #titlewrap {
@@ -53,12 +46,9 @@
     font-size: 40px;
   }
 
-  h2 {
-    font-size: 25px;
-  }
-
   #titlewrap h2 {
     width: 352px;
+    font-size: 25px;
   }
 
   #titlewrap {
@@ -71,20 +61,27 @@
     font-size: 30px;
   }
 
-  h2 {
-    font-size: 18px;
-  }
-
   #titlewrap {
     min-width: 300px;
-    height: 300px;
   }
 
   #spacer {
-    height: 50%
+    height: 60%
   }
 
   #titlewrap h2 {
     width: 265px;
+    font-size: 18px;
+  }
+
+  #nav {
+    flex-direction: column;
+  }
+
+  #right-nav {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 200px;
   }
 }
