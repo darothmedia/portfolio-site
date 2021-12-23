@@ -2,7 +2,7 @@ import modules from "./modules";
 
 const showcaseUtil = modules => (
   modules.map((module, i) => (
-    <a href={module.url} target='_blank' key={i}>
+    <a href={module.url} target='_blank' rel="noreferrer" key={i}>
       <div className="wrapper" id='modwrapper'>
         <img src={module.img} alt={module.title} />
         <div className="module" id={i} >
