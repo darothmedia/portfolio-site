@@ -19,6 +19,37 @@
   }
 
   h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  #titlewrap h2 {
+    width: 482px;
+  }
+
+  form p {
+    width: 320px;
+  }
+
+  #formwrap {
+    margin-top: 72px;
+  }
+
+  #titlewrap {
+    height: 500px;
+  }
+
+  #spacer {
+    height: 48%
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  h1 {
     font-size: 40px;
   }
 
@@ -30,11 +61,30 @@
     width: 352px;
   }
 
-  form p {
-    width: 320px;
+  #titlewrap {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 30px;
   }
 
-  #formwrap {
-    margin-top: 72px;
+  h2 {
+    font-size: 18px;
+  }
+
+  #titlewrap {
+    min-width: 300px;
+    height: 300px;
+  }
+
+  #spacer {
+    height: 50%
+  }
+
+  #titlewrap h2 {
+    width: 265px;
   }
 }
