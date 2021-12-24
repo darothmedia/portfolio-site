@@ -3,7 +3,7 @@ const modules = [
     title: 'What the GIF!?',
     img: 'https://i.imgur.com/Ecb2avz.png',
     url: 'https://what-the-gif.herokuapp.com/#/',
-    description: 'What the Gif?! is a game inspired by Apples to Apples and Cards Against Humanity. The game uses the Giphy API to supply a random set of gifs and categories (think Apples to Apples greencards), and Socket.io to enable a realtime game between many players.'
+    description: 'What the Gif?! is a game inspired by Apples to Apples and Cards Against Humanity. The game uses the Giphy API to supply a random set of gifs and categories (played like green cards in Apples to Apples), and Socket.io to enable a realtime game between many players.'
   },
   {
     title: 'HikersGuide',
@@ -15,7 +15,7 @@ const modules = [
     title: 'Plant Palace',
     img: 'https://live.staticflickr.com/65535/51770535478_1d3ce3c852_h.jpg',
     url: 'https://darothmedia.github.io/plant-palace/',
-    description: 'Plant Palace is a maze game where youll need to navigate an apartment cluttered with plants to get...well, anywhere!'
+    description: 'Plant Palace is a maze game where youll need to navigate an apartment cluttered with plants to get...well, anywhere! The game is built in vanilla JavaScript and rendered with Canvas API.'
   }
 ]
 
