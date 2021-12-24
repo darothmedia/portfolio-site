@@ -9,12 +9,12 @@ const modules = [
     title: 'HikersGuide',
     img: 'https://live.staticflickr.com/65535/51749485128_c0913c0bb9_k.jpg',
     url: 'https://hikers-guide.herokuapp.com',
-    description: 'HikersGuide is a clone of AllTrails where users can log in, create / write / update / delete reviews of a trail, and view park / trail detail pages with helpful info. The site draws references from The Hitchhikers Guide to the Galaxy, and has several easter eggs that fans of the book will appreciate.'
+    description: 'HikersGuide is a playful clone of AllTrails where users can log in, leave reviews of a trail, and view park / trail detail pages with helpful info. The site draws references from The Hitchhikers Guide to the Galaxy, and has several easter eggs that fans of the book will appreciate.'
   },
   {
     title: 'Plant Palace',
     img: 'https://live.staticflickr.com/65535/51770535478_1d3ce3c852_h.jpg',
-    url: 'https://hikers-guide.herokuapp.com',
+    url: 'https://darothmedia.github.io/plant-palace/',
     description: 'Plant Palace is a maze game where youll need to navigate an apartment cluttered with plants to get...well, anywhere!'
   }
 ]
