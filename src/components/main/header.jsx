@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { SocialIcon } from "react-social-icons"
+import styles from '../../stylesheets/root.scss'
 
 const Header = props => (
   <div id='nav'>
@@ -10,13 +11,13 @@ const Header = props => (
     </div>
     <div id='right-nav'>
       <div>
-        <SocialIcon url="https://github.com/darothmedia" bgColor="#FCF1C4" style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
+        <SocialIcon url="https://github.com/darothmedia" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
       </div>
       <div>
-        <SocialIcon url="https://www.linkedin.com/in/adrian-rothschild/" bgColor="#FCF1C4" style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
+        <SocialIcon url="https://www.linkedin.com/in/adrian-rothschild/" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
       </div>
       <div>
-        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor="#FCF1C4" style={{ width: 40, height: 40, margin: 0, marginRight: 20 }} />
+        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 20 }} />
       </div>
     </div>
   </div>

@@ -8,6 +8,7 @@
   line-height: 0.8;
   background-color: rgba(0,0,0,0.4);
   height: 500px;
+  color: $titlecolor;
 }
 
 #spacer {
@@ -17,14 +18,12 @@
 #titlewrap h1 {
   display: block;
   margin: 0 auto;
-  color: #FCF1C4;
 }
 
 #titlewrap h2 {
   padding-right: 10px;
   display: block;
   margin: 0 auto;
-  color: #FCF1C4;
 }
 
 #splashwrap {

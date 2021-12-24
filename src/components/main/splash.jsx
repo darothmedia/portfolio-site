@@ -6,7 +6,7 @@ const Splash = props => (
     <section className='wrapper' id='titlewrap'>
       <div id='spacer'></div>
       <h1>Adrian Rothschild</h1>
-      <h2>development / product / design</h2>
+      <h2>web & app development / product / design</h2>
     </section>
     <Showcase />
   </div>

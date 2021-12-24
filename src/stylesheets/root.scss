@@ -1,6 +1,12 @@
 $titlefont: 'Staatliches';
 $subtitlefont: 'Caveat';
-$titlecolor: #FCF1C4;
+$titlecolor: #fdfaec;
+
+:export {
+  tf: $titlefont;
+  sf: $subtitlefont;
+  tc: $titlecolor;
+}
 
 @import 'splash.scss';
 @import 'general.scss';
