@@ -8,6 +8,7 @@ const Header = props => (
     <div id='left-nav'>
       <Link to='/'>home</Link>
       <Link to='/contact'>contact</Link>
+      <Link to='/about'>about</Link>
     </div>
     <div id='right-nav'>
       <div>

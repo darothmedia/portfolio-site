@@ -13,7 +13,7 @@ const modules = [
   },
   {
     title: 'Plant Palace',
-    img: 'https://live.staticflickr.com/65535/51770535478_1d3ce3c852_h.jpg',
+    img: 'https://live.staticflickr.com/65535/51775962270_ba24f1dcdd_n.jpg',
     url: 'https://darothmedia.github.io/plant-palace/',
     description: 'Plant Palace is a maze game where youll need to navigate an apartment cluttered with plants to get...well, anywhere! The game is built in vanilla JavaScript and rendered with Canvas API.'
   }
