@@ -1,6 +1,9 @@
 $titlefont: 'Staatliches';
 $subtitlefont: 'Caveat';
 $titlecolor: #fdfaec;
+$modulecolor: rgb(26, 26, 26);
+$wrapperopacity: rgba(0,0,0,0.9);
+$bodyimagescreen: rgba(0,0,0,0.3);
 
 :export {
   tf: $titlefont;
