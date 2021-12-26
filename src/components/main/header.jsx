@@ -18,7 +18,7 @@ const Header = props => (
         <SocialIcon url="https://www.linkedin.com/in/adrian-rothschild/" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 8 }} />
       </div>
       <div>
-        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 20 }} />
+        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 10 }} />
       </div>
     </div>
   </div>
