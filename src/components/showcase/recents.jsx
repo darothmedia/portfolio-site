@@ -1,4 +1,4 @@
-const modules = [
+const recents = [
   {
     title: 'What the GIF!?',
     img: 'https://i.imgur.com/Ecb2avz.png',
@@ -19,4 +19,4 @@ const modules = [
   }
 ]
 
-export default modules
+export default recents

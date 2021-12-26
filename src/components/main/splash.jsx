@@ -1,5 +1,5 @@
 import React from "react"
-import Showcase from "../showcase/showcase"
+import { SplashShowcase } from "../showcase/showcase"
 
 const Splash = props => (
   <div className='wrapper' id='splashwrap'>
@@ -8,7 +8,7 @@ const Splash = props => (
       <h1>Adrian Rothschild</h1>
       <h2>web & app development / product / design</h2>
     </section>
-    <Showcase />
+    <SplashShowcase />
   </div>
 )
 

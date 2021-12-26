@@ -8,7 +8,7 @@ class ContactForm extends React.Component {
 
   render(){
     return(
-      <div className='wrapper' id='formwrap'>
+      <div className='page-wrapper' id='formwrap'>
         <h2>How can I help?</h2>
         <div id="ff-compose"></div>
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXjPkowWIn-gjxU_U8dcpNVQwKxyUYBFyp9bI-TE48yS8Q2Q/formResponse"

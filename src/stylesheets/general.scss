@@ -45,3 +45,11 @@ textarea {
   height: 200px;
   resize: vertical;
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+}

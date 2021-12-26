@@ -1,4 +1,5 @@
-import modules from "./modules";
+import recents from "./recents";
+import highlights from "./highlights"
 
 const showcaseUtil = modules => (
   modules.map((module, i) => (
@@ -14,11 +15,18 @@ const showcaseUtil = modules => (
   ))
 )
 
-const Showcase = () => (
+export const SplashShowcase = () => (
   <section className="wrapper" id='showcase'>
     <h3>Recent Work</h3>
-    {showcaseUtil(modules)}
+    {showcaseUtil(recents)}
   </section>
 )
 
-export default Showcase
+export const AboutShowCase = () => (
+  <section className="wrapper" id='showcase'>
+    <h2>Highlighted Work</h2>
+    <div id='aboutshowcase'>
+      {showcaseUtil(highlights)}
+    </div>
+  </section>
+)
