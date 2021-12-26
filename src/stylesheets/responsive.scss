@@ -37,8 +37,18 @@
   #spacer {
     height: 50%
   }
-}
 
+  #img-txt {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #imgdiv {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -58,7 +68,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
   h1 {
     font-size: 30px;
   }

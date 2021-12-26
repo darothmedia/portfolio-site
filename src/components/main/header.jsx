@@ -12,13 +12,13 @@ const Header = props => (
     </div>
     <div id='right-nav'>
       <div>
-        <SocialIcon url="https://github.com/darothmedia" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
+        <SocialIcon url="https://github.com/darothmedia" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 10 }} />
       </div>
       <div>
-        <SocialIcon url="https://www.linkedin.com/in/adrian-rothschild/" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 10 }} />
+        <SocialIcon url="https://www.linkedin.com/in/adrian-rothschild/" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 10 }} />
       </div>
       <div>
-        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor={styles.tc} style={{ width: 40, height: 40, margin: 0, marginRight: 20 }} />
+        <SocialIcon url="https://angel.co/u/adrian-rothschild" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 20 }} />
       </div>
     </div>
   </div>

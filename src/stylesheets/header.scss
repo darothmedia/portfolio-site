@@ -14,7 +14,7 @@ header a {
 }
 
 #left-nav {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #nav {
@@ -22,11 +22,13 @@ header a {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 #right-nav {
   display: flex;
   flex-direction: row;
+  
 }
 
 #right-nav div {
