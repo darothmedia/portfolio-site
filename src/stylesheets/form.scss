@@ -8,7 +8,7 @@
 
 textarea {
   display: block;
-  background-color: black;
+  background: none;
   border: 1px solid $titlecolor;
   color: white;
   padding: 10px;
@@ -16,8 +16,8 @@ textarea {
   width: 300px;
 }
 
-input {
-  background-color: black;
+input, input:-internal-autofill-selected {
+  background: none;
   border: 1px solid $titlecolor;
   color: white;
   padding: 10px;
@@ -32,11 +32,41 @@ input {
 
 label {
   position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: -1;
+  color: rgba($titlecolor, 0.5);
+  cursor: text;
+  transition: top $transitiontxt, left $transitiontxt, 
+      background-color $transitiontxt, font-size $transitiontxt, 
+      color $transitiontxt, padding $transitiontxt
+}
+
+input:not(:placeholder-shown) ~ label, textarea:not(:placeholder-shown) ~ label {
   top: -14px;
   left: 5px;
   font-size: 14px;
   background-color: black;
+  color: $titlecolor;
   padding: 5px;
+  z-index: 1;
+  transition: top $transitiontxt, left $transitiontxt, 
+    background-color $transitiontxt, font-size $transitiontxt, 
+    color $transitiontxt, padding $transitiontxt
+}
+
+input:focus ~ label, textarea:focus ~ label {
+    top: -14px;
+    left: 5px;
+    font-size: 14px;
+    background-color: black;
+    color: $titlecolor;
+    padding: 5px;
+    z-index: 1;
+    transition: top $transitiontxt, left $transitiontxt, 
+      background-color $transitiontxt, font-size $transitiontxt, 
+      color $transitiontxt, padding $transitiontxt
 }
 
 

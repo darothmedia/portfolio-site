@@ -14,12 +14,12 @@ class ContactForm extends React.Component {
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXjPkowWIn-gjxU_U8dcpNVQwKxyUYBFyp9bI-TE48yS8Q2Q/formResponse"
         onSubmit={this.submit}>
           <div id="inputwrap">
+            <input type="text" name='entry.358076833' placeholder=" " />
             <label>Your Email</label>
-            <input type="text" name='entry.358076833' />
           </div>
           <div id='inputwrap'>
+            <textarea name='entry.1738447102' placeholder=" " />
             <label>Message</label>
-            <textarea name='entry.1738447102' />
           </div>
           <button>Submit</button>
           <p>Note: this message will be submitted via Google Forms</p>
