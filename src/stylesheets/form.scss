@@ -24,7 +24,7 @@ textarea {
 }
 
 input:focus, textarea:focus {
-  border: 1px solid white;
+  background-color: rgba(0,0,0,0.9);
   outline: none;
 }
 
@@ -56,9 +56,8 @@ textarea:not(:placeholder-shown) ~ label,
 input:focus ~ label, textarea:focus ~ label, 
 input:hover ~ label, textarea:hover ~ label, 
 label:hover {
-  top: -27px;
+  top: -15px;
   left: 12px;
-  // background-color: black;
   color: $titlecolor;
   padding: 5px;
   z-index: 1;

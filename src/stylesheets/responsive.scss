@@ -64,6 +64,14 @@
   #titlewrap {
     height: 350px;
   }
+
+  label {
+    top: -15px;
+    left: 12px;
+    color: $titlecolor;
+    padding: 5px;
+    z-index: 1;
+  }
 }
 
 @media only screen and (max-width: 360px) {
