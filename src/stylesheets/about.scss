@@ -1,17 +1,23 @@
 #img-txt {
   display: flex;
   margin-bottom: 50px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 #imgdiv {
-  margin-top: 20px;
-  margin-right: 50px;
+  margin-right: 20px;
+}
+
+#txtdiv {
+  background-color: $wrapperopacity;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #img-txt img {
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 #aboutshowcase {

@@ -1,6 +1,7 @@
 $moduleheight: 200px;
 $modulewidth: 80vw;
-$imagewidth: 40vw;
+$showcasewidth: 40vw;
+$imagewidth: 300px;
 $imageheight: 240px;
 $aboutheight: 290px;
 
@@ -23,16 +24,20 @@ $aboutheight: 290px;
   font-family: $titlefont;
   margin-bottom: 10px;
   margin-top: 20px;
+  padding-right: 20px;
+}
+
+.module p {
+  padding-right: 20px;
 }
 
 #modwrapper {
   width: $modulewidth;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0px 20px 30px 20px;
-  padding-right: 20px;
+  margin: 0px 0px 30px 0px;
   min-width: 300px;
-  background-color: $modulecolor;
+  background-color: $wrapperopacity;
 }
 
 #modwrapper img {
@@ -52,10 +57,10 @@ $aboutheight: 290px;
   align-items: center;
 }
 
-#splashwrap #showcase.wrapper {
-  background-color: $wrapperopacity;
-  box-shadow: 0px 0px 100px 100px $wrapperopacity;
-}
+// #splashwrap #showcase.wrapper {
+//   background-color: $bodyimagescreen;
+//   box-shadow: 0px 0px 100px 100px $bodyimagescreen;
+// }
 
 #aboutshowcase .module {
   height: $aboutheight;

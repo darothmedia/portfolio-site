@@ -1,6 +1,7 @@
 $blackboard: 'https://live.staticflickr.com/65535/51776507837_74dbbb26d4_n.jpg';
 $sfskyline: 'https://hikers-guide.s3.us-west-1.amazonaws.com/HikersGuide_GP2/IMG_7544.jpg';
 $clouds: 'https://live.staticflickr.com/65535/51777592253_1feaf70317_n.jpg';
+$clouds2: 'https://live.staticflickr.com/65535/51778574217_2d7f9cc8e3_n.jpg';
 $neon: 'https://live.staticflickr.com/65535/51777980884_7727647989_n.jpg';
 
 html {
@@ -13,12 +14,13 @@ body {
 }
 
 .bodywrap {
-  background-image: url($clouds);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url($clouds2);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: 100vw auto;
+  // background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .bodyscreen {
@@ -66,6 +68,11 @@ form p {
   text-align: center;
 }
 
+p {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+
 textarea {
   height: 200px;
   resize: vertical;
@@ -77,13 +84,11 @@ textarea {
   align-items: center;
   justify-content: center;
   padding-top: 150px;
-  // background-color: $bodyimagescreen;
-  // box-shadow: 0px 0px 100px 150px $wrapperopacity;
 }
 
 #lowerwrapper {
-  background-color: $wrapperopacity;
-  box-shadow: 0px 0px 100px 100px $wrapperopacity;
+  // background-color: $bodyimagescreen;
+  // box-shadow: 0px 0px 100px 100px $bodyimagescreen;
   display: flex;
   flex-direction: column;
   align-items: center;
