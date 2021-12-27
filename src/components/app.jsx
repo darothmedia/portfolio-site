@@ -5,20 +5,22 @@ import ContactForm from "./contact/contact_container"
 import About from "./about/about"
 
 const App = () => (
-  <>
-    <header>
-      <Header />
-    </header>
-    
-    <Routes>
-      <Route path='/' element={<Splash />}/>
-      <Route path='/contact' element={<ContactForm />} />
-      <Route path='/about' element={<About />} />
-    </Routes>
+  <div className="bodywrap">
+    <div className="bodyscreen">
+      <header>
+        <Header />
+      </header>
+      
+      <Routes>
+        <Route path='/' element={<Splash />}/>
+        <Route path='/contact' element={<ContactForm />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
 
-    <footer>  
-    </footer>
-  </>
+      <footer>  
+      </footer>
+    </div>
+  </div>
 )
 
 export default App

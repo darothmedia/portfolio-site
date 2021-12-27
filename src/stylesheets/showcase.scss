@@ -15,6 +15,7 @@ $aboutheight: 290px;
   height: $moduleheight;
   display: block;
   border-radius: 10px;
+  min-width: 300px;
 }
 
 .module h4 {
@@ -30,6 +31,7 @@ $aboutheight: 290px;
   border-radius: 10px;
   margin: 0px 20px 30px 20px;
   padding-right: 20px;
+  min-width: 300px;
   background-color: $modulecolor;
 }
 
@@ -40,6 +42,7 @@ $aboutheight: 290px;
   height: $imageheight;
   object-fit: cover;
   margin-right: 20px;
+  min-width: 320px;
 }
 
 #showcase.wrapper {
