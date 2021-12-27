@@ -2,6 +2,7 @@ $blackboard: 'https://live.staticflickr.com/65535/51776507837_74dbbb26d4_n.jpg';
 $sfskyline: 'https://hikers-guide.s3.us-west-1.amazonaws.com/HikersGuide_GP2/IMG_7544.jpg';
 $clouds: 'https://live.staticflickr.com/65535/51777592253_1feaf70317_n.jpg';
 $clouds2: 'https://live.staticflickr.com/65535/51778574217_3a46a12c47_k.jpg';
+$clouds3: 'https://live.staticflickr.com/65535/51779734386_c228a9d085_k.jpg';
 $neon: 'https://live.staticflickr.com/65535/51777980884_7727647989_n.jpg';
 
 html {
@@ -15,11 +16,10 @@ body {
 
 .bodywrap {
   background-image: url($clouds2);
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: 100vw auto;
-  // background-repeat: no-repeat;
+  -webkit-background-size: 100vw;
+  -moz-background-size: 100vw;
+  -o-background-size: 100vw;
+  background-size: 100vw;
   background-attachment: scroll;
 }
 
