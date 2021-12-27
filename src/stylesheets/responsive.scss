@@ -27,10 +27,6 @@
     font-size: 25px;
   }
 
-  form p {
-    width: 320px;
-  }
-
   #titlewrap {
     height: 400px;
   }
@@ -48,6 +44,7 @@
 
   #imgdiv {
     margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 20px;
   }
 }
@@ -71,6 +68,11 @@
     color: $titlecolor;
     padding: 5px;
     z-index: 1;
+  }
+
+  #imgdiv img {
+    height: 250px;
+    width: 250px;
   }
 }
 
@@ -100,5 +102,18 @@
 
   #modwrapper {
     padding-bottom: 20px;
+  }
+
+  #imgdiv img {
+    height: 200px;
+    width: 200px;
+  }
+
+  form {
+    width: 250px;
+  }
+
+  textarea, input {
+    width: 220px;
   }
 }
