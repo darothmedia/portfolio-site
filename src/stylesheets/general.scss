@@ -45,8 +45,8 @@ button {
   padding: 10px;
   background-color: $titlecolor;
   border-radius: 10px;
-  width: 320px;
-  border: 0px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0);
   cursor: pointer;
   color: black;
 }
