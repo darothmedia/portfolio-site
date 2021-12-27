@@ -7,25 +7,20 @@
   padding-bottom: 20vh;
 }
 
-textarea {
-  display: block;
+input, textarea {
+  font-size: 20px;
+  font-family: sans-serif;
   background-color: $wrapperopacity;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   width: 300px;
   transition: outline $transitiontxt;
 }
 
-input {
-  background-color: $wrapperopacity;
-  border: none;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
-  transition: outline $transitiontxt;
+textarea {
+  display: block;
 }
 
 input:focus, textarea:focus {
