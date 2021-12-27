@@ -76,6 +76,13 @@
   #titlewrap {
     height: 300px;
   }
+
+  .bodywrap {
+    -webkit-background-size: 140vw;
+    -moz-background-size: 140vw;
+    -o-background-size: 140vw;
+    background-size: 140vw;
+  }
 }
 
 @media only screen and (max-width: 360px) {
