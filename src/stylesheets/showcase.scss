@@ -2,7 +2,7 @@ $moduleheight: 200px;
 $modulewidth: 80vw;
 $imagewidth: 40vw;
 $imageheight: 240px;
-$aboutheight: 270px;
+$aboutheight: 290px;
 
 #showcase h3 {
   text-align: center;
@@ -47,7 +47,11 @@ $aboutheight: 270px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $wrapperopacity;
+}
+
+#splashwrap #showcase.wrapper {
+  background-color: rgba(black, 0.5);
+  box-shadow: 0px 0px 100px 100px rgba(black, 0.5);
 }
 
 #aboutshowcase .module {

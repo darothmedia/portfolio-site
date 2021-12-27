@@ -1,20 +1,39 @@
+$blackboard: 'https://live.staticflickr.com/65535/51776507837_74dbbb26d4_n.jpg';
+$sfskyline: 'https://hikers-guide.s3.us-west-1.amazonaws.com/HikersGuide_GP2/IMG_7544.jpg';
+$clouds: 'https://live.staticflickr.com/65535/51777592253_1feaf70317_n.jpg';
+$neon: 'https://live.staticflickr.com/65535/51777980884_7727647989_n.jpg';
+
 html {
   background-color: black;
+  background-image: url($clouds);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
   color: $titlecolor;
 }
 
 body {
   overflow-x: hidden;
+  background-color: $bodyimagescreen;
 }
 
 h1 {
+  margin-top: 0px;
   font-family: $titlefont;
   font-size: 78px;
 }
 
 h2 {
+  margin-top: 0px;
   font-family: $subtitlefont;
   font-size: 35px;
+  z-index: 1;
+}
+
+h3 {
+  margin-top: 0px;
 }
 
 a {
@@ -51,5 +70,16 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
+  padding-top: 150px;
+  // background-color: $bodyimagescreen;
+  // box-shadow: 0px 0px 100px 150px $wrapperopacity;
+}
+
+#lowerwrapper {
+  width: 100vw;
+  background-color: $wrapperopacity;
+  box-shadow: 0px 0px 100px 100px $wrapperopacity;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
