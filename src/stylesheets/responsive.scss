@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 48px;
+    font-size: 50px;
   }
 
   #titlewrap h2 {
@@ -72,19 +72,29 @@
     height: 250px;
     width: 250px;
   }
+
+  #titlewrap {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
   h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   #titlewrap {
     min-width: 300px;
+    height: 250px;
   }
 
+  #spacer {
+    height: 60%
+  }
+
+
   #titlewrap h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #nav {
