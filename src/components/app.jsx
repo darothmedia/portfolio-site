@@ -10,13 +10,11 @@ const App = () => (
       <header>
         <Header />
       </header>
-      
       <Routes>
         <Route path='/' element={<Splash />}/>
         <Route path='/contact' element={<ContactForm />} />
         <Route path='/about' element={<About />} />
       </Routes>
-
       <footer>  
       </footer>
     </div>
