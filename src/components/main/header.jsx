@@ -7,7 +7,7 @@ const Header = props => (
   <div id='nav'>
     <div id='left-nav'>
       <Link to='/'>home</Link>
-      <Link to='/about'>about</Link>
+      <Link to='/projects'>projects</Link>
       <Link to='/contact'>contact</Link>
     </div>
     <div id='right-nav'>
