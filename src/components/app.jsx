@@ -3,6 +3,7 @@ import Splash from './main/splash'
 import Header from "./main/header"
 import ContactForm from "./contact/contact_container"
 import About from "./about/about"
+import Projects from "./about/projects"
 
 const App = () => (
   <div className="bodywrap">
