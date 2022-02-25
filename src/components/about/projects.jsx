@@ -1,8 +1,9 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
 
-const About = props => (
-  <div>
+const Projects = props => (
+  <div className="page-wrapper" id='aboutwrapper'>
+    <h2>About Adrian</h2>
     <div id='lowerwrapper'>
       <section id="img-txt">
         <div id='imgdiv'>
@@ -39,5 +40,3 @@ const About = props => (
     </div>
   </div>
 )
-
-export default About
