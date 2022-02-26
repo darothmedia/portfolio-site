@@ -90,8 +90,11 @@
   }
 
   .rocket {
-    height: 75px;
-    left: calc(50% - 37.5px)
+    display: none;
+  }
+
+  .module-wrapper {
+    margin-top: 0px;
   }
 }
 
