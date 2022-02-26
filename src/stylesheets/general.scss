@@ -96,16 +96,16 @@ textarea {
 }
 
 .animwrapper {
-  display: flex;
-  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .rocket {
-  position: relative;
+  position: absolute;
   cursor: pointer;
   transition: bottom 1s;
   height: 100px;
   bottom: 50px;
+  left: calc(50% - 50px);
 }
 
 .rocket:active {

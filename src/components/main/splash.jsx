@@ -1,7 +1,7 @@
 import React from "react"
 import About from "../about/about"
 import rocket from '../../rocket.png'
-import {Link, animateScroll, Element} from "react-scroll"
+import {Link, Element} from "react-scroll"
 
 const Splash = props => (
   <div className='wrapper' id='splashwrap'>

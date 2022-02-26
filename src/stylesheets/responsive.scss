@@ -88,6 +88,11 @@
     -o-background-size: 150vw;
     background-size: 150vw;
   }
+
+  .rocket {
+    height: 75px;
+    left: calc(50% - 37.5px)
+  }
 }
 
 @media only screen and (max-width: 360px) {
