@@ -1,7 +1,7 @@
 import React from "react"
-import { SplashShowcase } from "../showcase/showcase"
 import About from "../about/about"
 import rocket from '../../rocket.png'
+import {Link, animateScroll, Element} from "react-scroll"
 
 const Splash = props => (
   <div className='wrapper' id='splashwrap'>
@@ -11,9 +11,15 @@ const Splash = props => (
       <h2>web & app development / product / design</h2>
     </section>
     <div className="animwrapper">
-      <img src={rocket} className="rocket" alt="rocket" />
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
+        <img src={rocket} className="rocket" alt="rocket" />
+      </Link>
     </div>
-    <About />
+    <div className="page-wrapper" id="pagewrapper">
+      <Element name="about" className="element">
+        <About />
+      </Element>
+    </div>
   </div>
 )
 
