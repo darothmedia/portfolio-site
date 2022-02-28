@@ -3,7 +3,7 @@ import { AboutShowCase } from "../showcase/showcase"
 
 const About = props => (
   <div>
-    <div id='lowerwrapper'>
+    <div>
       <section id="img-txt">
         <div id='imgdiv'>
           <img src="https://www.gravatar.com/avatar/c9e419e9130716352aa68a35c275fa39?s=300" alt="Adrian's Gravatar" />
