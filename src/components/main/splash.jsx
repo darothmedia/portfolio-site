@@ -1,5 +1,4 @@
 import React from "react"
-import { SplashShowcase } from "../showcase/showcase"
 import About from "../about/about"
 
 const Splash = props => (
