@@ -2,7 +2,6 @@ import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
 
 const About = props => (
-  <div>
     <div>
       <section id="img-txt">
         <div id='imgdiv'>
@@ -37,7 +36,6 @@ const About = props => (
       </section>
       <AboutShowCase />
     </div>
-  </div>
 )
 
 export default About

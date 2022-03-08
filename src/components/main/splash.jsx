@@ -8,7 +8,7 @@ const Splash = props => (
       <h1>Adrian Rothschild</h1>
       <h2>web & app development / product / design</h2>
     </section>
-        <About />
+      <About />
   </div>
 )
 
