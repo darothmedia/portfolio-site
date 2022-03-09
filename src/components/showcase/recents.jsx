@@ -13,7 +13,7 @@ const recents = [
   },
   {
     title: 'CAPIDLE',
-    img: 'https://live.staticflickr.com/65535/51924752541_b945a10cfb_o.png',
+    img: 'https://live.staticflickr.com/65535/51924752541_72bb6b3160_o.png',
     url: 'https://darothmedia.github.io/capidle/',
     description: 'A geographic riff on Wordle. Narrow down possible cities by entering city names, then view their distance to the target city. Keep guessing until you succeed! Frontend built in React.js / Redux. Using GeoDB Cities API & Material UI.'
   },
