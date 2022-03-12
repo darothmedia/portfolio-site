@@ -7,7 +7,7 @@ const showcaseUtil = modules => (
       <div className="wrapper" id='modwrapper'>
         <img src={module.img} alt={module.title} />
         <div className="module" id={i} >
-          <h4>{module.title}</h4>
+          <h4>{module.title.toUpperCase()}</h4>
           <p>{module.description}</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ export const SplashShowcase = () => (
 
 export const AboutShowCase = () => (
   <section className="wrapper" id='showcase'>
-    <h2>Highlighted Work</h2>
+    <h2>{"Highlighted Work".toUpperCase()}</h2>
     <div id='aboutshowcase'>
       {showcaseUtil(highlights)}
     </div>

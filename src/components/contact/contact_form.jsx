@@ -8,6 +8,7 @@ class ContactForm extends React.Component {
 
   render(){
     return(
+      <>
       <div className='page-wrapper' id='formwrap'>
         <h2>How can I help?</h2>
         <div id="lowerwrapper">
@@ -26,7 +27,7 @@ class ContactForm extends React.Component {
         </form>
         </div>
       </div>
-    
+      </>
     )
   }
 }

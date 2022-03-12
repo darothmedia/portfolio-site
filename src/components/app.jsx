@@ -8,9 +8,9 @@ import Projects from "./about/projects"
 const App = () => (
   <div className="bodywrap">
     <div className="bodyscreen">
-      <header>
+      {/* <header>
         <Header />
-      </header>
+      </header> */}
       <Routes>
         <Route path='/' element={<Splash />}/>
         <Route path='/contact' element={<ContactForm />} />

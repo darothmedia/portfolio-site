@@ -2,13 +2,15 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { SocialIcon } from "react-social-icons"
 import styles from '../../stylesheets/root.scss'
+import {Link as ScrollLink} from "react-scroll"
 
 const Header = props => (
   <div id='nav'>
     <div id='left-nav'>
-      <Link to='/'>home</Link>
-      <Link to='/projects'>projects</Link>
-      <Link to='/contact'>contact</Link>
+      <Link to='/'>HOME</Link>
+      <ScrollLink activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>ABOUT</ScrollLink>
+      <ScrollLink activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>PROJECTS</ScrollLink>
+      <Link to='/contact'>CONTACT</Link>
     </div>
     <div id='right-nav'>
       <div>
