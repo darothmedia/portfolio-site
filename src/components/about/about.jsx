@@ -1,5 +1,6 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
+import ContactHeader from "../main/contact_header"
 
 const About = props => (
   <div>

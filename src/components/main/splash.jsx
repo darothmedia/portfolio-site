@@ -3,7 +3,7 @@ import About from "../about/about"
 import Projects from "../about/projects"
 import rocket from '../../rocket-fuel.png'
 import {Link, Element} from "react-scroll"
-import Header from "./header"
+import Header from "./main_header"
 
 const Splash = props => (
   <>

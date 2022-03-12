@@ -1,4 +1,5 @@
 import React from "react";
+import ContactHeader from "../main/contact_header";
 
 class ContactForm extends React.Component {
 
@@ -9,6 +10,9 @@ class ContactForm extends React.Component {
   render(){
     return(
       <>
+      <header>
+        <ContactHeader></ContactHeader>
+      </header>
       <div className='page-wrapper' id='formwrap'>
         <h2>How can I help?</h2>
         <div id="lowerwrapper">
