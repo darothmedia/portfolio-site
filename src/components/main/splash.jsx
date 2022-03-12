@@ -8,7 +8,7 @@ import Header from "./main_header"
 const Splash = props => (
   <>
   <header>
-      <Header />
+      <Header main={true} />
   </header>
   <div className='wrapper' id='splashwrap'>
     <section className='wrapper' id='titlewrap'>
@@ -25,12 +25,12 @@ const Splash = props => (
     </div>
     <div className="page-wrapper" id="pagewrapper">
       <Element name="about" className="element">
-        <About />
+        <About component={true} />
       </Element>
     </div>
     <div className="page-wrapper" id="lowerwrapper">
       <Element name="projects" className="element">
-        <Projects />
+        <Projects component={true} />
       </Element>
     </div>
   </div>

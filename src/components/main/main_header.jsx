@@ -6,12 +6,19 @@ import {Link as ScrollLink} from "react-scroll"
 
 const Header = props => (
   <div id='nav'>
+    {props.main ? 
     <div id='left-nav'>
       <Link to='/'>HOME</Link>
       <ScrollLink activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>ABOUT</ScrollLink>
       <ScrollLink activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>PROJECTS</ScrollLink>
       <Link to='/contact'>CONTACT</Link>
-    </div>
+      </div> : 
+      <div id='left-nav'>
+        <Link to='/'>HOME</Link>
+        <Link to="/about">ABOUT</Link>
+        <Link to="/projects">PROJECTS</Link>
+        <Link to='/contact'>CONTACT</Link>
+      </div> }
     <div id='right-nav'>
       <div>
         <SocialIcon url="https://github.com/darothmedia" bgColor={styles.tc} style={{ width: 35, height: 35, margin: 0, marginRight: 8 }} />

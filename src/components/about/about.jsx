@@ -1,9 +1,13 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
-import ContactHeader from "../main/contact_header"
+import Header from "../main/main_header"
 
 const About = props => (
   <div>
+    {!props.component ? 
+    <header>
+      <Header />
+    </header> : null}
     <div id='lowerwrapper'>
       <section id="img-txt">
         <div id='imgdiv'>
