@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0cafc7f.css",
+    "main.css": "/static/css/main.2280df3c.css",
     "main.js": "/static/js/main.4b38678e.js",
     "static/js/787.45cf7014.chunk.js": "/static/js/787.45cf7014.chunk.js",
     "static/media/rocket-fuel.png": "/static/media/rocket-fuel.5f2ff2e3d2ceb8f56bc6.png",
     "index.html": "/index.html",
-    "main.e0cafc7f.css.map": "/static/css/main.e0cafc7f.css.map",
+    "main.2280df3c.css.map": "/static/css/main.2280df3c.css.map",
     "main.4b38678e.js.map": "/static/js/main.4b38678e.js.map",
     "787.45cf7014.chunk.js.map": "/static/js/787.45cf7014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0cafc7f.css",
+    "static/css/main.2280df3c.css",
     "static/js/main.4b38678e.js"
   ]
 }
