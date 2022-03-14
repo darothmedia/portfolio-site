@@ -9,6 +9,15 @@ import configureStore from './store/store'
 var preloadedState = {}
 const store = configureStore(preloadedState)
 
+function click(e) {
+  if (!e)
+    e = window.event;
+  if (e.type && e.type == "contextmenu") {
+    return false;
+  }
+}
+document.oncontextmenu = click;
+
 ReactDOM.render(
   <React.StrictMode>
     <Root store={store} />
