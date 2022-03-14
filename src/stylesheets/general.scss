@@ -155,7 +155,7 @@ img {
   100% { transform: translate(0px, 1px) rotate(1deg); }
 }
 
-.rocket-container:focus {
+.rocket-container:active {
   bottom: 150vh;
   transition: bottom 2s;
 }

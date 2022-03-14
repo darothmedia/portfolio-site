@@ -21,7 +21,7 @@ const Splash = props => {
         </section>
         <div className="animwrapper">
           <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
-            <div className="rocket-container" onClick={handleClick}>
+            <div className="rocket-container" >
               <img src={rocket} className="rocket" alt="rocket" />
             </div>
           </Link>
