@@ -7,6 +7,7 @@ const Projects = props => (
     {!props.component ?
       <header>
         <Header />
+        <div id="pagespacer"></div>
       </header> : null}
     <div id='lowerwrapper'>
       <h2>{"Recent Projects".toUpperCase()}</h2>

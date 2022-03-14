@@ -7,8 +7,10 @@ const About = props => (
     {!props.component ? 
     <header>
       <Header />
+      <div id="pagespacer"></div>
     </header> : null}
     <div id='lowerwrapper'>
+      {!props.component ? <h2 id='aboutadrian'>ABOUT ADRIAN</h2> : null}
       <section id="img-txt">
         <div id='imgdiv'>
           <img src="https://www.gravatar.com/avatar/c9e419e9130716352aa68a35c275fa39?s=300" alt="Adrian's Gravatar" />

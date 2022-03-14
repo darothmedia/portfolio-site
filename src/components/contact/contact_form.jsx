@@ -14,7 +14,7 @@ class ContactForm extends React.Component {
         <Header />
       </header>
       <div className='page-wrapper' id='formwrap'>
-        <h2>How can I help?</h2>
+        <h2>HOW CAN I HELP?</h2>
         <div id="lowerwrapper">
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXjPkowWIn-gjxU_U8dcpNVQwKxyUYBFyp9bI-TE48yS8Q2Q/formResponse"
         onSubmit={this.submit}>
