@@ -9,6 +9,7 @@
   height: calc(100vh - 200px);
   min-height: 500px;
   color: $titlecolor;
+  z-index: 1;
 }
 
 #spacer {

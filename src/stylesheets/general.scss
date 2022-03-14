@@ -119,7 +119,9 @@ textarea {
   cursor: pointer;
   transition: bottom 1s;
   height: 100px;
-  bottom: 50px;
+  position: relative;
+  bottom: 0;
+  z-index: 2;
 }
 
 @keyframes wiggle {
@@ -137,8 +139,8 @@ textarea {
 }
 
 .rocket:active {
-  bottom: 200px;
-  transition: bottom 1s;
+  bottom: 150vh;
+  transition: bottom 2s;
 }
 
 #pagespacer {
