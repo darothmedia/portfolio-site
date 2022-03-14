@@ -40,7 +40,9 @@ const About = props => (
           </p>
         </div>
       </section>
-      <AboutShowCase />
+      <div id="lowerwrapper">
+        <AboutShowCase />
+      </div>
     </div>
   </div>
 )

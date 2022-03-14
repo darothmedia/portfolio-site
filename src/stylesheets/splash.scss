@@ -6,13 +6,13 @@
 #titlewrap {
   text-align: center;
   line-height: 0.8;
-  height: 100vh;
+  height: calc(100vh - 200px);
   min-height: 500px;
   color: $titlecolor;
 }
 
 #spacer {
-  height: 35%;
+  height: 35vh;
 }
 
 #titlewrap h1 {

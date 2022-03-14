@@ -23,12 +23,12 @@ const Splash = props => (
         <img src={rocket} className="rocket" alt="rocket" />
       </Link>
     </div>
-    <div className="page-wrapper" id="pagewrapper">
+    <div id="about-section">
       <Element name="about" className="element">
         <About component={true} />
       </Element>
     </div>
-    <div className="page-wrapper" id="lowerwrapper">
+    <div id="projects-section">
       <Element name="projects" className="element">
         <Projects component={true} />
       </Element>

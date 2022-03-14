@@ -106,20 +106,20 @@ textarea {
   margin-top: 80px;
 }
 
-.animwrapper {
-  position: relative;
-  margin-bottom: 100px;
+#splashwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .rocket {
   animation: wiggle 1s;
   animation-iteration-count: infinite;
-  position: absolute;
   cursor: pointer;
   transition: bottom 1s;
   height: 100px;
-  bottom: 100px;
-  left: calc(50% - 50px);
+  bottom: 50px;
 }
 
 @keyframes wiggle {

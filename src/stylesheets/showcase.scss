@@ -1,7 +1,7 @@
 $moduleheight: 200px;
 $modulewidth: 80vw;
 $showcasewidth: 40vw;
-$imagewidth: 40vw;
+$imagewidth: 30vw;
 $imageheight: 240px;
 $aboutheight: 290px;
 $aboutwidth: 300px;
@@ -43,7 +43,7 @@ $aboutwidth: 300px;
 
 #modwrapper img {
   float: left;
-  width: 40vw;
+  width: $imagewidth;
   min-width: 300px;
   height: $imageheight;
   object-fit: cover;
@@ -63,14 +63,14 @@ $aboutwidth: 300px;
 //   box-shadow: 0px 0px 100px 100px $bodyimagescreen;
 // }
 
-#aboutshowcase .module {
-  height: $aboutheight;
-}
+// #aboutshowcase .module {
+//   height: $aboutheight;
+// }
 
-#aboutshowcase #modwrapper img {
-  width: $aboutwidth;
-  height: calc($aboutheight + 20px);
-}
+// #aboutshowcase #modwrapper img {
+//   width: $aboutwidth;
+//   height: calc($aboutheight + 20px);
+// }
 
 
 
