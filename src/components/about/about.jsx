@@ -46,7 +46,6 @@ const About = props => (
         <AboutShowCase />
       </div>
     </div>
-  </div>
 )
 
 export default About

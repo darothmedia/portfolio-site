@@ -50,11 +50,14 @@
     height: 35vh
   }
 
-  #img-txt {
+  section#img-txt {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+  }
+
+  #img-txt p {
+    width: 80vw;
   }
 
   #imgdiv {
