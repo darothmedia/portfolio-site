@@ -1,6 +1,6 @@
 $wrapheight: calc(100vh - 300px);
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 900px) {
   .module, #aboutshowcase .module {
     height: auto;
     margin-left: 20px;
@@ -29,21 +29,8 @@ $wrapheight: calc(100vh - 300px);
     font-size: 60px;
   }
 
-  #hamburger {
-    display: block;
-  }
-
-  #socialicon {
-    display: none;
-  }
-
   #titlewrap h2 {
     font-size: 26px;
-  }
-
-  header a {
-    font-size: 15px;
-    margin: 5px;
   }
 
   #spacer {
@@ -72,6 +59,19 @@ $wrapheight: calc(100vh - 300px);
 }
 
 @media only screen and (max-width: 600px) {
+  header a {
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  #socialicon {
+    display: none;
+  }
+
   h1 {
     font-size: 40px;
   }
