@@ -1,8 +1,6 @@
 header {
   padding: 10px;
-  // position: absolute;
   top: 0;
-  width: 100vw;
 }
 
 header a {
@@ -31,8 +29,33 @@ header a {
 #right-nav {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 #right-nav div {
   margin-right: 10px;
+}
+
+#hamburger {
+  display: none;
+}
+
+#socialiconmenu {
+  position: absolute;
+  top: 60px;
+  animation: slidein 0.5s;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -70px;
+    opacity: 0;
+    height: 0px;
+  }
+
+  to {
+    margin-top: 0px;
+    opacity: 100%;
+    height: 100%;
+  }
 }
