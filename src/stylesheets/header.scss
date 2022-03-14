@@ -35,9 +35,15 @@ header a {
 }
 
 #socialiconmenu {
+  display: none;
   position: absolute;
   top: 60px;
   animation: slidein 0.5s;
+  z-index: 2;
+}
+
+#socialiconmenu a {
+  cursor: pointer;
 }
 
 @keyframes slidein {

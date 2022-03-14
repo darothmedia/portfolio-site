@@ -12,10 +12,11 @@ const store = configureStore(preloadedState)
 function click(e) {
   if (!e)
     e = window.event;
-  if (e.type && e.type == "contextmenu") {
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
     return false;
   }
 }
+document.onmousedown = click;
 document.oncontextmenu = click;
 
 ReactDOM.render(

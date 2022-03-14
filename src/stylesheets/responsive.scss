@@ -66,10 +66,15 @@ $wrapheight: calc(100vh - 300px);
 
   #hamburger {
     display: block;
+    z-index: 2;
   }
 
   #socialicon {
     display: none;
+  }
+
+  #socialiconmenu {
+    display: block;
   }
 
   h1 {
