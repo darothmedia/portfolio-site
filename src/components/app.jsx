@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Splash from './main/splash'
-import Header from "./main/header"
+import Header from "./main/main_header"
 import ContactForm from "./contact/contact_container"
 import About from "./about/about"
 import Projects from "./about/projects"
@@ -8,9 +8,9 @@ import Projects from "./about/projects"
 const App = () => (
   <div className="bodywrap">
     <div className="bodyscreen">
-      <header>
+      {/* <header>
         <Header />
-      </header>
+      </header> */}
       <Routes>
         <Route path='/' element={<Splash />}/>
         <Route path='/contact' element={<ContactForm />} />

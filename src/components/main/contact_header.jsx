@@ -3,12 +3,13 @@ import { Link } from "react-router-dom"
 import { SocialIcon } from "react-social-icons"
 import styles from '../../stylesheets/root.scss'
 
-const Header = props => (
+const ContactHeader = props => (
   <div id='nav'>
     <div id='left-nav'>
-      <Link to='/'>home</Link>
-      <Link to='/projects'>projects</Link>
-      <Link to='/contact'>contact</Link>
+      <Link to='/'>HOME</Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to="/projects">PROJECTS</Link>
+      <Link to='/contact'>CONTACT</Link>
     </div>
     <div id='right-nav'>
       <div>
@@ -25,4 +26,4 @@ const Header = props => (
   
 )
 
-export default Header
+export default ContactHeader

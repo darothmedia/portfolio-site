@@ -18,20 +18,36 @@
     float: none;
   }
 
+  .bodywrap {
+    -webkit-background-size: 200vw;
+    -moz-background-size: 200vw;
+    -o-background-size: 200vw;
+    background-size: 200vw;
+  }
+
   h1 {
     font-size: 60px;
   }
 
-  #titlewrap h2 {
-    font-size: 25px;
+  #hamburger {
+    display: block;
   }
 
-  #titlewrap {
-    height: 400px;
+  #socialicon {
+    display: none;
+  }
+
+  #titlewrap h2 {
+    font-size: 26px;
+  }
+
+  header a {
+    font-size: 15px;
+    margin: 5px;
   }
 
   #spacer {
-    height: 45%
+    height: 35vh
   }
 
   section#img-txt {
@@ -57,15 +73,19 @@
 
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 47px;
+    font-size: 40px;
+  }
+
+  #right-nav div {
+    margin-right: 3px;
+  }
+
+  #left-nav :last-child {
+    margin-right: 10px;
   }
 
   #titlewrap h2 {
-    font-size: 21px;
-  }
-
-  #titlewrap {
-    height: 350px;
+    font-size: 17px;
   }
 
   label {
@@ -81,38 +101,33 @@
     width: 250px;
   }
 
-  #titlewrap {
-    height: 300px;
-  }
-
-  .bodywrap {
-    -webkit-background-size: 150vw;
-    -moz-background-size: 150vw;
-    -o-background-size: 150vw;
-    background-size: 150vw;
-  }
-
-  .rocket {
-    display: none;
-  }
-
   .module-wrapper {
     margin-top: 0px;
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 390px) {
   h1 {
     font-size: 35px;
   }
 
+  h2 {
+    font-size: 30px;
+  }
+
   #titlewrap {
     min-width: 300px;
-    height: 250px;
+  }
+
+  .bodywrap {
+    -webkit-background-size: 220vw;
+    -moz-background-size: 220vw;
+    -o-background-size: 220vw;
+    background-size: 220vw;
   }
 
   #spacer {
-    height: 60%
+    height: 35vh
   }
 
 
@@ -120,15 +135,9 @@
     font-size: 16px;
   }
 
-  #nav {
+  #rightnav div {
+    display: flex;
     flex-direction: column;
-  }
-
-  #right-nav {
-    margin-left: 10px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    min-width: 200px;
   }
 
   #modwrapper {
@@ -146,5 +155,19 @@
 
   textarea, input {
     width: 220px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  #titlewrap h2 {
+    font-size: 12px;
+  }
+
+  #left-nav a {
+    font-size: 12px;
   }
 }

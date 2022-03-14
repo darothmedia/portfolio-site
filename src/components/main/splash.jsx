@@ -1,15 +1,40 @@
 import React from "react"
 import About from "../about/about"
+import Projects from "../about/projects"
+import rocket from '../../rocket-fuel.png'
+import {Link, Element} from "react-scroll"
+import Header from "./main_header"
 
 const Splash = props => (
+  <>
+  <header>
+      <Header main={true} />
+  </header>
   <div className='wrapper' id='splashwrap'>
     <section className='wrapper' id='titlewrap'>
       <div id='spacer'></div>
-      <h1>Adrian Rothschild</h1>
-      <h2>web & app development / product / design</h2>
+      <div id='title'>
+        <h1>{"Adrian Rothschild".toUpperCase()}</h1>
+        <h2>web & app development / product / design</h2>
+      </div>
     </section>
-      <About />
+    <div className="animwrapper">
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
+        <img src={rocket} className="rocket" alt="rocket" />
+      </Link>
+    </div>
+    <div id="about-section">
+      <Element name="about" className="element">
+        <About component={true} />
+      </Element>
+    </div>
+    <div id="projects-section">
+      <Element name="projects" className="element">
+        <Projects component={true} />
+      </Element>
+    </div>
   </div>
+  </>
 )
 
 export default Splash

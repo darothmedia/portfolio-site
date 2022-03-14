@@ -1,8 +1,16 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
+import Header from "../main/main_header"
 
 const About = props => (
-    <div>
+  <div>
+    {!props.component ? 
+    <header>
+      <Header />
+      <div id="pagespacer"></div>
+    </header> : null}
+    <div id='lowerwrapper'>
+      {!props.component ? <h2 id='aboutadrian'>ABOUT ADRIAN</h2> : null}
       <section id="img-txt">
         <div id='imgdiv'>
           <img src="https://www.gravatar.com/avatar/c9e419e9130716352aa68a35c275fa39?s=300" alt="Adrian's Gravatar" />
@@ -34,7 +42,9 @@ const About = props => (
           </p>
         </div>
       </section>
-      <AboutShowCase />
+      <div id="lowerwrapper">
+        <AboutShowCase />
+      </div>
     </div>
 )
 
