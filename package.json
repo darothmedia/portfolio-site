@@ -2,7 +2,7 @@
   "name": "rothschild-media",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rothschildmedia.org",
+  "homepage": "http://adrianrothschild.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
