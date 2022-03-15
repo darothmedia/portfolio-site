@@ -17,7 +17,6 @@ $aboutwidth: 300px;
   height: $moduleheight;
   display: block;
   border-radius: 10px;
-  min-width: 300px;
 }
 
 .module h4 {
@@ -37,7 +36,6 @@ $aboutwidth: 300px;
   overflow: hidden;
   border-radius: 10px;
   margin: 0px 0px 30px 0px;
-  min-width: 300px;
   background-color: $wrapperopacity;
 }
 
@@ -57,20 +55,6 @@ $aboutwidth: 300px;
   justify-content: center;
   align-items: center;
 }
-
-// #splashwrap #showcase.wrapper {
-//   background-color: $bodyimagescreen;
-//   box-shadow: 0px 0px 100px 100px $bodyimagescreen;
-// }
-
-// #aboutshowcase .module {
-//   height: $aboutheight;
-// }
-
-// #aboutshowcase #modwrapper img {
-//   width: $aboutwidth;
-//   height: calc($aboutheight + 20px);
-// }
 
 
 

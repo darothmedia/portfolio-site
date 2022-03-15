@@ -10,7 +10,7 @@ const Projects = props => (
         <div id="pagespacer"></div>
       </header> : null}
     <div id='lowerwrapper'>
-      <h2>{"Recent Projects".toUpperCase()}</h2>
+      <h2>{"Recent Projects"}</h2>
       <SplashShowcase />
     </div>
   </div>

@@ -23,7 +23,7 @@ export const SplashShowcase = () => (
 
 export const AboutShowCase = () => (
   <section className="wrapper" id='showcase'>
-    <h2>{"Highlighted Work".toUpperCase()}</h2>
+    <h2>{"Highlighted Work"}</h2>
     <div id='aboutshowcase'>
       {showcaseUtil(highlights)}
     </div>

@@ -29,21 +29,22 @@ body {
 
 .bodyscreen {
   background-color: $bodyscreen;
+  min-height: 100vh;
 }
 
 h1 {
   margin-top: 0px;
   font-family: $titlefont;
-  font-size: 80px;
+  font-size: 110px;
   font-weight: 800;
 }
 
 h2 {
   margin-top: 0px;
-  font-family: $subtitlefont;
-  font-size: 35px;
+  font-family: $bodyfont;
+  font-size: 45px;
   z-index: 1;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 h3 {
