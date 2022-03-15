@@ -18,8 +18,9 @@ const About = props => (
         <div id='txtdiv'>
           <p>
             Preschool TV creative turned software engineer.
-            What has that leap taught me? That we can always learn new things, no matter how old (or young) we are; that big risks often pay off;
-            and that education is the foundation for a happy & fulfilling career.
+            What has that leap taught me? That you can build a new skillset at any age, 
+            that big risks are worth the reward,
+            and that education is the foundation for a fulfilling career.
             <br />
             <br />
             I am a full-stack software developer and award-winning creative in digital media.
