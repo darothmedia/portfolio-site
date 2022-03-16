@@ -1,5 +1,5 @@
 import React from "react"
-import { AboutShowCase, SplashShowcase } from "../showcase/showcase"
+import {SplashShowcase } from "../showcase/showcase"
 import Header from "../main/main_header"
 
 const Projects = props => (
