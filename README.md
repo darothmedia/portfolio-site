@@ -2,7 +2,7 @@
 
 ## Overview
 
-Software Development and Product Design, specializing in educational media for kids.
+Software Development / Product Management / UX Design, specializing in educational media for kids.
 
 ## Projects
 
