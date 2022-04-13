@@ -6,6 +6,14 @@ import {Link, Element} from "react-scroll"
 import Header from "./main_header"
 
 const Splash = props => {
+  function clickHandler(e) {
+    e.preventDefault()
+    e.target.classList.add('clicked')
+    setTimeout(() => {
+      e.target.classList.remove('clicked')
+    }, 2000)
+  }
+
   return(
     <>
       <header>
@@ -20,8 +28,8 @@ const Splash = props => {
           </div>
         </section>
         <div className="animwrapper">
-          <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
-            <div className="rocket-container" >
+          <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={1000}>
+            <div className="rocket-container" onClick={e => clickHandler(e)} >
               <img src={rocket} className="rocket" alt="rocket" />
             </div>
           </Link>
@@ -33,6 +41,7 @@ const Splash = props => {
         </div>
         <div id="projects-section">
           <Element name="projects" className="element">
+            <div id='pagespacer'></div>
             <Projects component={true} />
           </Element>
         </div>

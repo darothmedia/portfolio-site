@@ -17,14 +17,7 @@ const About = props => (
         </div>
         <div id='txtdiv'>
           <p>
-            Preschool TV creative turned software engineer.
-            What has that leap taught me? That you can build a new skillset at any age, 
-            that big risks are worth the reward,
-            and that education is the foundation for a fulfilling career.
-            <br />
-            <br />
-            I am a full-stack software developer and award-winning creative in digital media.
-            I am skilled in React, Redux, Rails, Ruby, JavaScript, TypeScript, Vue, PostgreSQL, MongoDB, and other frameworks. 
+            Full-Stack Software Developer, Product Manager, and award-winning creative in digital media.
             I have worked on top rated shows & apps for Nickelodeon, MTV, Paramount+,
             and Amazon Kids, produced immersive games available on mobile and voice devices,
             and pitched creative for prototype digital & physical products that span several
