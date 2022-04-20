@@ -24,6 +24,14 @@ const About = props => (
             emerging technologies. I design & build compelling content to engage users on new platforms.
             <br />
             <br />
+            Over the last few years I have applied myself to a strenuous schedule of technical 
+            training. I have come out prepared to develop web & mobile apps from scratch
+            using languages and frameworks like React, Redux, Ruby on Rails, JavaScript, MongoDB, TypeScript, Vue, 
+            and more. I have built full stack applications tapping into various APIs, 
+            using web sockets, persisting complex user interactions in Redux state, and 
+            building human-centered UX / UI.
+            <br />
+            <br />
             Throughout my career in media, I have worked with several nonprofits, charities,
             and schools. I currently volunteer with the Children's Media Association,
             a non-profit bringing together the children's media community through
