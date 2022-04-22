@@ -1,7 +1,6 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
 import Header from "../main/main_header"
-// import Resume from '../../documents/ARothschild_Resume.pdf'
 
 const About = props => (
   <div>
