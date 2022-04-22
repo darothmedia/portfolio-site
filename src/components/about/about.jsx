@@ -1,6 +1,7 @@
 import React from "react"
 import { AboutShowCase } from "../showcase/showcase"
 import Header from "../main/main_header"
+import Resume from '../../documents/ARothschild_Resume.pdf'
 
 const About = props => (
   <div>
@@ -41,9 +42,14 @@ const About = props => (
             <br />
             I am always open to new concepts, fresh inspiration, and good conversation.
             I thrive on creative energy and big ideas.
+            <br />
+            <br />
+            <button onClick={() => window.open(Resume)}><h2>Download Resume</h2></button>
           </p>
+          
         </div>
       </section>
+      
       <div id="lowerwrapper">
         <AboutShowCase />
       </div>
