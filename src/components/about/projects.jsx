@@ -9,7 +9,7 @@ const Projects = props => (
         <Header />
         <div id="pagespacer"></div>
       </header> : null}
-    <div id='lowerwrapper'>
+    <div id='lowerwrapper' className={!props.component ? 'page' : 'component'}>
       <h2>{"Recent Projects"}</h2>
       <SplashShowcase />
     </div>

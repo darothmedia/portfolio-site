@@ -13,8 +13,8 @@ const About = props => (
     </header> : <div id="pagespacer"></div>}
     <div id='lowerwrapper' className={!props.component ? 'page' : 'component'}>
       <h2 id='aboutadrian'>About Adrian</h2>
-      <div className="about-wrap">
-        <section id="img-txt">
+      <div className="about-wrap" id={!props.component ? 'page' : 'component'}>
+        <section id="img-txt" className={!props.component ? 'page' : 'component'}>
           <div id='imgdiv'>
             <img src="https://www.gravatar.com/avatar/c9e419e9130716352aa68a35c275fa39?s=300" alt="Adrian's Gravatar" />
             <div id='socialabout'>
