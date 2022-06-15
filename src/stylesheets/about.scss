@@ -1,25 +1,37 @@
 #img-txt {
   display: flex;
-  margin-bottom: 50px;
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
 }
 
+.about-wrap {
+  margin-bottom: 30px;
+}
+
 #imgdiv {
   margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #txtdiv {
-  background-color: $wrapperopacity;
-  border-radius: 10px;
+  border-radius: 3px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+#txtdiv p {
+  padding: 10px;
+}
+
 #img-txt img {
-  border-radius: 10px;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 #aboutshowcase {
@@ -34,4 +46,15 @@ button h2 {
   font-size: 25px;
   padding: 0px;
   margin: 0px;
+}
+
+#socialabout {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#socialabout #socialicon {
+  margin-left: 5px;
+  margin-right: 5px;
 }

@@ -34,17 +34,20 @@ const Splash = props => {
             </div>
           </Link>
         </div>
-        <div id="about-section">
-          <Element name="about" className="element">
-            <About component={true} />
-          </Element>
-        </div>
-        <div id="projects-section">
-          <Element name="projects" className="element">
-            <div id='pagespacer'></div>
-            <Projects component={true} />
-          </Element>
-        </div>
+        <section className="lower-splash">
+          <div id="about-section">
+            <Element name="about" className="element">
+              <About component={true} />
+            </Element>
+          </div>
+          <div id="projects-section">
+            <Element name="projects" className="element">
+              <div id='pagespacer'></div>
+              <Projects component={true} />
+            </Element>
+          </div>
+        </section>
+        
       </div>
     </>
   )

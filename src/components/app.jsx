@@ -9,11 +9,11 @@ const App = () => (
   <div className="bodywrap">
     <div className="bodyscreen">
       <Routes>
-        <Route path='/' element={<Splash />}/>
         <Route path='/contact' element={<ContactForm />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />}/>
         <Route path='/nothingtoseehere' element={<ResDisplay />} />
+        <Route path='/' element={<Splash />} />
       </Routes>
     </div>
   </div>

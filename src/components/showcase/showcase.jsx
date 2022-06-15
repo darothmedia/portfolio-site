@@ -17,7 +17,9 @@ const showcaseUtil = modules => (
 
 export const SplashShowcase = () => (
   <section className="wrapper" id='showcase'>
-    {showcaseUtil(recents)}
+    <div id='aboutshowcase'>
+      {showcaseUtil(recents)}
+    </div>
   </section>
 )
 
