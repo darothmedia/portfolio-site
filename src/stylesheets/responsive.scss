@@ -60,7 +60,7 @@ $wrapheight: calc(100vh - 300px);
 
 @media only screen and (max-width: 600px) {
   header a {
-    font-size: 15px;
+    font-size: 18px;
     margin: 5px;
   }
 
@@ -90,15 +90,11 @@ $wrapheight: calc(100vh - 300px);
   }
 
   #titlewrap h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   #titlewrap {
     height: $wrapheight;
-  }
-
-  .animwrapper {
-    height: calc(100vh - $wrapheight);
   }
 
   label {
@@ -145,7 +141,7 @@ $wrapheight: calc(100vh - 300px);
 
 
   #titlewrap h2 {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   #rightnav div {
@@ -177,10 +173,10 @@ $wrapheight: calc(100vh - 300px);
   }
 
   #titlewrap h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #left-nav a {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
