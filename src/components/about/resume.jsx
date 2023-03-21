@@ -2,9 +2,9 @@ import React from "react";
 import Resume from '../../ARothschild_Resume.pdf'
 
 const ResDisplay = props => (
-  <div>
-    {Resume ? null : null}
-  </div>
+  <>
+    {Resume ? window.location.replace("https://drive.google.com/uc?id=1XEp6tOcL3fIRhvA2SIj_Ao-SPNkFgvVC") : null}
+  </>
 )
 
 export default ResDisplay

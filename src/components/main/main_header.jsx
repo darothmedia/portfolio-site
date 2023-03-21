@@ -18,14 +18,16 @@ const Header = props => {
       <div id='left-nav'>
         <Link to='/'>HOME</Link>
         <ScrollLink activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>ABOUT</ScrollLink>
-        <ScrollLink activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>PROJECTS</ScrollLink>
+        {/* <ScrollLink activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>PROJECTS</ScrollLink> */}
         <Link to='/contact'>CONTACT</Link>
+        <a href='https://drive.google.com/uc?id=1XEp6tOcL3fIRhvA2SIj_Ao-SPNkFgvVC' target="_blank" rel="noreferrer">RESUME</a>
         </div> : 
         <div id='left-nav'>
           <Link to='/'>HOME</Link>
           <Link to="/about">ABOUT</Link>
-          <Link to="/projects">PROJECTS</Link>
+          {/* <Link to="/projects">PROJECTS</Link> */}
           <Link to='/contact'>CONTACT</Link>
+          <a href='https://drive.google.com/uc?id=1XEp6tOcL3fIRhvA2SIj_Ao-SPNkFgvVC' target="_blank" rel="noreferrer">RESUME</a>
         </div> }
       <div id='right-nav'>
         <button onClick={(e) => handleClick(e)} id="hamburger">

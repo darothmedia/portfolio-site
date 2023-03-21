@@ -32,7 +32,7 @@ const About = props => (
           <div id='txtdiv'>
             <p>
               I am an experienced Software Engineer, Product Manager, and award-winning Creative Producer
-              with roots in the Film, TV, and Gaming industries in both creative and technical roles.
+              with roots in the Film, TV, and Gaming industries.
               I have worked on highly acclaimed shows & apps for Nickelodeon, Amazon, 
               and Paramount+, produced immersive Augmented Reality and Voice games, 
               developed complex synchronous multiplayer games for new platforms, 
