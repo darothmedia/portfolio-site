@@ -31,14 +31,16 @@ const About = props => (
           </div>
           <div id='txtdiv'>
             <p>
-              I am a Full-Stack Software Engineer, Product Manager, and award-winning creative in digital media.
-              I have worked on top rated shows & apps for Nickelodeon, MTV, Paramount+,
-              and Amazon Kids, produced immersive games available on mobile and voice devices,
-              and pitched creative for prototype digital & physical products that span several
-              emerging technologies.
+              I am an experienced Software Engineer, Product Manager, and award-winning Creative Producer
+              with roots in the Film, TV, and Gaming industries in both creative and technical roles.
+              I have worked on highly acclaimed shows & apps for Nickelodeon, Amazon, 
+              and Paramount+, produced immersive Augmented Reality and Voice games, 
+              developed complex synchronous multiplayer games for new platforms, 
+              and pitched creative for prototype digital & physical products that 
+              span several emerging technologies. 
               <br />
               <br />
-              I have experience in JavaScript, Ruby, C#, TypeScript, React, Redux, Rails, 
+              I have experience in JavaScript, TypeScript, React, Ruby, C#, PHP, Python, Redux, Rails, 
               Node.JS, Express.js, Unity, PostgreSQL, SQLite, MongoDB, Axios, 
               Cheerio, Websockets, Webhooks, Flux, HTML, CSS, SASS / SCSS, RSpec, 
               Mongoose, Git, GitHub, Webpack, jQuery, Object Oriented Programming (OOP), 
