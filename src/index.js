@@ -5,6 +5,7 @@ import './stylesheets/root.scss'
 import Root from './components/root';
 import reportWebVitals from './reportWebVitals';
 import configureStore from './store/store'
+import moveRocket from './util/rocket';
 
 var preloadedState = {}
 const store = configureStore(preloadedState)
@@ -25,6 +26,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+moveRocket()
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

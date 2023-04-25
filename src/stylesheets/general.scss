@@ -23,11 +23,15 @@ body {
   -o-background-size: 100vw;
   background-size: 100vw;
   background-attachment: scroll;
+  z-index: -2;
+  position: relative;
 }
 
 .bodyscreen {
   background-color: $bodyscreen;
   min-height: 100vh;
+  z-index: -2;
+  position: relative;
 }
 
 h1 {
@@ -127,13 +131,10 @@ img {
 }
 
 .rocket-container {
-  animation: wiggle 1s;
-  animation-iteration-count: infinite;
-  cursor: pointer;
   transition: bottom 1s;
   position: relative;
   bottom: 0;
-  z-index: 0;
+  z-index: -1;
   user-select: none;
   height: 100px;
   -webkit-touch-callout: none;
@@ -141,13 +142,19 @@ img {
   -moz-user-select: none;
 }
 
-.rocket-container.clicked {
+.static-rocket {
+  cursor: pointer;
+  animation: wiggle 1s;
+  animation-iteration-count: infinite;
+}
+
+.static-rocket.clicked {
   bottom: 150vh;
   transition: bottom 2s;
   height: 100px;
 }
 
-.rocket-container.clicked .rocket {
+.static-rocket.clicked .rocket {
   height: 20px;
   transition: height 2s;
 }
@@ -172,4 +179,9 @@ img {
 
 #aboutadrian {
   margin-bottom: 0px;
+}
+
+#about-section {
+  z-index: 1;
+  position: relative;
 }

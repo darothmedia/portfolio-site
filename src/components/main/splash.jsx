@@ -29,7 +29,7 @@ const Splash = props => {
         </section>
         <div className="animwrapper">
           <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={1000}>
-            <div className="rocket-container" onClick={e => clickHandler(e)} >
+            <div className="rocket-container static-rocket" onClick={e => clickHandler(e)} >
               <img src={rocket} className="rocket" alt="rocket" />
             </div>
           </Link>
