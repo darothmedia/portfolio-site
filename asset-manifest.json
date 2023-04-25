@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ec18ad9.css",
-    "main.js": "/static/js/main.32df7737.js",
+    "main.css": "/static/css/main.4b568811.css",
+    "main.js": "/static/js/main.651122be.js",
     "static/js/787.45cf7014.chunk.js": "/static/js/787.45cf7014.chunk.js",
     "static/media/ARothschild_Resume.pdf": "/static/media/ARothschild_Resume.bad9ad5c203dd3adbc93.pdf",
     "static/media/rocket-fuel.png": "/static/media/rocket-fuel.5f2ff2e3d2ceb8f56bc6.png",
     "index.html": "/index.html",
-    "main.7ec18ad9.css.map": "/static/css/main.7ec18ad9.css.map",
-    "main.32df7737.js.map": "/static/js/main.32df7737.js.map",
+    "main.4b568811.css.map": "/static/css/main.4b568811.css.map",
+    "main.651122be.js.map": "/static/js/main.651122be.js.map",
     "787.45cf7014.chunk.js.map": "/static/js/787.45cf7014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ec18ad9.css",
-    "static/js/main.32df7737.js"
+    "static/css/main.4b568811.css",
+    "static/js/main.651122be.js"
   ]
 }
