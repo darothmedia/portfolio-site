@@ -22,6 +22,7 @@ const moveRocket = () => {
     document.addEventListener('keydown', (event) => {
       keysPressed[event.code] = true;
       rocket.classList.remove('static-rocket')
+      rocket.parentNode.classList.add('moving-rocket')
     });
 
     // Add an event listener for keyup events

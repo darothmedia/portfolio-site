@@ -23,15 +23,11 @@ body {
   -o-background-size: 100vw;
   background-size: 100vw;
   background-attachment: scroll;
-  z-index: -2;
-  position: relative;
 }
 
 .bodyscreen {
   background-color: $bodyscreen;
   min-height: 100vh;
-  z-index: -2;
-  position: relative;
 }
 
 h1 {
@@ -45,7 +41,6 @@ h2 {
   margin-top: 0px;
   font-family: $bodyfont;
   font-size: 45px;
-  z-index: 1;
   font-weight: 200;
 }
 
@@ -115,10 +110,6 @@ img {
   width: 100%;
 }
 
-// #splashwrap #lowerwrapper {
-//   margin-top: 80px;
-// }
-
 #splashwrap {
   display: flex;
   flex-direction: column;
@@ -134,7 +125,7 @@ img {
   transition: bottom 1s;
   position: relative;
   bottom: 0;
-  z-index: -1;
+  z-index: 0;
   user-select: none;
   height: 100px;
   -webkit-touch-callout: none;
@@ -146,6 +137,10 @@ img {
   cursor: pointer;
   animation: wiggle 1s;
   animation-iteration-count: infinite;
+}
+
+.moving-rocket {
+  cursor:default;
 }
 
 .static-rocket.clicked {
@@ -179,9 +174,4 @@ img {
 
 #aboutadrian {
   margin-bottom: 0px;
-}
-
-#about-section {
-  z-index: 1;
-  position: relative;
 }
