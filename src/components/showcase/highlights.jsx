@@ -1,5 +1,17 @@
 const highlights = [
   {
+    title: 'Jelly, Ben & Pogo: Babysitting Squee',
+    img: 'https://live.staticflickr.com/65535/53459958224_1360f32b1d_o.png',
+    url: 'https://pbskids.org/jellybenandpogo/games/babysitting-squee',
+    description: 'Developer at Primal Screen on Jelly Ben & Pogo: Babysitting Squee, a guided open-world game for PBS containing three minigames, each technically complex with multiple levels. I used a layered masking system to allow players to draw and cut out shadow puppets, which are used to tell stories.'
+  },
+  {
+    title: 'Modeling Emotions with Elmo and Jesse',
+    img: 'https://live.staticflickr.com/65535/53459958264_a25d69ef0f_o.png',
+    url: 'https://sesameworkshop.org/resources/express-yourself-with-elmo-and-jesse/',
+    description: 'Lead Developer on Modeling Emotions with Elmo and Jesse, an art therapy clay creation game for Sesame Workshop. The game features Jesse, a muppet whose father has died, and encourages kids to express their feelings through art. I used an experimental approach to manipulating Spine assets, allowing free manipulation of a clay ball on the canvas.'
+  },
+  {
     title: 'Ever Scouts',
     img: 'https://live.staticflickr.com/65535/52762704879_dd8dd6ee1f_o.png',
     url: 'https://www.everscouts.com/',
