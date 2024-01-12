@@ -33,9 +33,8 @@ const About = props => (
             <p>
               I am an experienced Software Engineer, Product Manager, and award-winning Creative Producer
               with roots in the Film, TV, and Gaming industries.
-              I have worked on highly acclaimed shows & apps for Nickelodeon, Amazon, 
-              and Paramount+, produced immersive Augmented Reality and Voice games, 
-              developed complex synchronous multiplayer games for new platforms, 
+              I have worked on highly acclaimed shows & games for Nickelodeon, PBS Kids, Sesame Workshop, and Amazon, 
+              produced immersive Augmented Reality and Voice apps,
               and pitched creative for prototype digital & physical products that 
               span several emerging technologies. 
               <br />
