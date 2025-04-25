@@ -35,13 +35,13 @@ const About = props => (
               with roots in the Film, TV, and Gaming industries. I love building software that lets kids 
               and adults learn through play. Throughout my career, I have designed, produced, and developed 
               apps & games for major kids entertainment brands: Nickelodeon, Sesame Workshop, PBS, Amazon, 
-              and Paramount, among others. I am an experienced web game developer, specializing in PixiJS 
+              and Paramount, among others. As a web game developer, I have specialized in PixiJS 
               and Phaser game engines.
               <br />
               <br />
               My work has often been at the cutting edge — immersive Augmented Reality apps, voice games 
               for smart speakers, and prototype digital & physical products. I have a keen eye for design 
-              and user experience. I am always open to new concepts, fresh inspiration, and good conversation.
+              and user experience.
               <br />
               <br />
               Throughout my career in media, I have worked with several nonprofits, charities,
