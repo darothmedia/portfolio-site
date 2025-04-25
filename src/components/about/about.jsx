@@ -33,7 +33,7 @@ const About = props => (
             <p>
               I am an experienced Software Engineer, Product Manager, and award-winning Creative Producer
               with roots in the Film, TV, and Gaming industries. I love building software that lets kids 
-              and adults learn through play. Throughout my career, I have designed, produced, and developed 
+              and adults learn through play. I have designed, produced, and developed 
               apps & games for major kids entertainment brands: Nickelodeon, Sesame Workshop, PBS, Amazon, 
               and Paramount, among others. As a web game developer, I have specialized in PixiJS 
               and Phaser game engines.
@@ -45,7 +45,7 @@ const About = props => (
               <br />
               <br />
               Throughout my career in media, I have worked with several nonprofits, charities,
-              and schools. I currently volunteer with the Children's Media Association,
+              and schools. Most recently I have volunteered with the Children's Media Association,
               a non-profit bringing together the children's media community through
               networking events, mentorship, regional job boards and creative partnerships
               in NYC, LA, and the Bay Area.
