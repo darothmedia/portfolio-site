@@ -32,18 +32,16 @@ const About = props => (
           <div id='txtdiv'>
             <p>
               I am an experienced Software Engineer, Product Manager, and award-winning Creative Producer
-              with roots in the Film, TV, and Gaming industries.
-              I have worked on highly acclaimed shows & games for Nickelodeon, PBS Kids, Sesame Workshop, and Amazon, 
-              produced immersive Augmented Reality and Voice apps,
-              and pitched creative for prototype digital & physical products that 
-              span several emerging technologies. 
+              with roots in the Film, TV, and Gaming industries. I love building software that lets kids 
+              and adults learn through play. Throughout my career, I have designed, produced, and developed 
+              apps & games for major kids entertainment brands: Nickelodeon, Sesame Workshop, PBS, Amazon, 
+              and Paramount, among others. I am an experienced web game developer, specializing in PixiJS 
+              and Phaser game engines.
               <br />
               <br />
-              I have experience in JavaScript, TypeScript, React, Ruby, C#, PHP, Python, Redux, Rails, 
-              Node.JS, Express.js, Unity, PostgreSQL, SQLite, MongoDB, Axios, 
-              Cheerio, Websockets, Webhooks, Flux, HTML, CSS, SASS / SCSS, RSpec, 
-              Mongoose, Git, GitHub, Webpack, jQuery, Object Oriented Programming (OOP), 
-              and other languages & frameworks.
+              My work has often been at the cutting edge — immersive Augmented Reality apps, voice games 
+              for smart speakers, and prototype digital & physical products. I have a keen eye for design 
+              and user experience. I am always open to new concepts, fresh inspiration, and good conversation.
               <br />
               <br />
               Throughout my career in media, I have worked with several nonprofits, charities,

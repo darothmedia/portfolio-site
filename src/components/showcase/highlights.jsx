@@ -1,5 +1,11 @@
 const highlights = [
   {
+    title: 'Apple Vision Pro: Bikini Bottom Environment',
+    img: 'https://live.staticflickr.com/65535/54476089561_0425bb2155_c.jpg',
+    url: 'https://apps.apple.com/us/app/paramount/id530168168?platform=vision',
+    description: 'Contract Product Manager at Paramount tasked with managing development and release of an Apple Vision Pro Environment for Paramount+ celebrating the 25th anniversary of SpongeBob SquarePants. Planned and executed an aggressive 4-month development timeline, with beats for ideation, archival pulls, stakeholder reviews, and product integration with the existing Paramount+ VisionOS native app.'
+  },
+  {
     title: 'Jelly, Ben & Pogo: Babysitting Squee',
     img: 'https://live.staticflickr.com/65535/53459958224_1360f32b1d_o.png',
     url: 'https://pbskids.org/jellybenandpogo/games/babysitting-squee',
